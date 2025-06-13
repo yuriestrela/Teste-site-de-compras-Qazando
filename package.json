@@ -29,6 +29,7 @@
     }
   },
   "dependencies": {
-    "cypress-real-events": "^1.14.0"
+    "cypress-real-events": "^1.14.0",
+    "faker-br": "^0.4.1"
   }
 }
