@@ -5,7 +5,6 @@ export const pageObjects = {
     shouldLogin: 'div[class*="icon-success"] h2',
     clickInOk: 'button[class*="swal2-confirm"]',
     errorMessage: 'span.invalid_input',
-    shouldNotHome: ''
 };
 
 export class LoginPage {
