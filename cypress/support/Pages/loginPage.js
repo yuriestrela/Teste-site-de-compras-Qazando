@@ -5,7 +5,6 @@ export const pageObjects = {
     shouldLogin: 'div[class*="icon-success"] h2',
     clickInOk: 'button[class*="swal2-confirm"]',
     errorMessage: 'span.invalid_input',
-    shouldNotHome: ''
 };
 
 export class LoginPage {
@@ -43,6 +42,7 @@ export class LoginPage {
     clickInOk() {
         cy.get(pageObjects.clickInOk).click();
     }
+
 
     shouldNotLogin() {
         cy.get(pageObjects.shouldLogin).should('not.exist');
