@@ -43,6 +43,7 @@ export class LoginPage {
         cy.get(pageObjects.clickInOk).click();
     }
 
+
     shouldNotLogin() {
         cy.get(pageObjects.shouldLogin).should('not.exist');
         cy.url().should('not.include', '/my-account');
