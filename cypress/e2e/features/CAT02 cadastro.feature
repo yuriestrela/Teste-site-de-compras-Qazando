@@ -29,7 +29,7 @@ Funcionalidade: Cadastro de usuário
   Cenário: CT006 - Cadastro com campo de senha em branco
     Dado que o usuário está na página de cadastro
     Quando o usuário preenche todos os campos obrigatórios com "usuário e e-mail válidos porém com uma senha em branco"
-    Então o sistema deve exibir a mensagem "O campo senha deve ser preenchido" e não realizar o cadastro
+    Então o sistema deve exibir a mensagem "O campo senha deve ter pelo menos 6 dígitos" e não realizar o cadastro
 
   Cenário: CT007 - Cadastro com todos os campos em branco
     Dado que o usuário está na página de cadastro
